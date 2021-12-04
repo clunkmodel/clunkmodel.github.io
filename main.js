@@ -240,7 +240,7 @@ allow drawing on canvas
 function allowDrawing() {
     canvas.isDrawingMode = 1;
     if (mode == 'en')
-        document.getElementById('status').innerHTML = 'Model Loaded';
+        document.getElementById('status').innerHTML = 'Start to draw:';
     else
         document.getElementById('status').innerHTML = 'تم التحميل';
     $('button').prop('disabled', false);
