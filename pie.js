@@ -36,14 +36,14 @@ function createPie(dataElement, pieElement) {
   var color = [
     "rgba(239, 208, 8)", 
     "rgba(33, 94, 164)", 
-    "rgba(163, 136, 190, 0.2)", 
-    "rgba(239, 208, 8, 0.5)", 
-    "rgba(33, 94, 164, 0.2)", 
     "rgba(163, 136, 190)", 
-    "rgba(239, 208, 8, 0.2)", 
-    "rgba(33, 94, 164, 0.5)", 
-    "rgba(163, 136, 190, 0.5)", 
-    "rgba(239, 208, 8, 0.8)"
+    "rgba(255, 240, 140)", 
+    "rgba(91, 133, 181)", 
+    "rgba(149, 99, 199)", 
+    "rgba(255, 249, 207)", 
+    "rgba(181, 211, 245)", 
+    "rgba(210, 190, 230)", 
+    "rgba(255, 253, 237)"
   ];
   for(var i=0; i<listData.length; i++) {
     var size = sliceSize(listData[i], listTotal);
