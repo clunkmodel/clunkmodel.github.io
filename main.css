@@ -1,3 +1,9 @@
+body {
+    font-family: Montserrat;
+    src: 'https://fonts.googleapis.com/css?family=Montserrat';
+}
+
+
 .slider {
     -webkit-appearance: none;
     width: 230px;
