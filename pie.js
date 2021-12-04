@@ -34,16 +34,16 @@ function createPie(dataElement, pieElement) {
   }
   var offset = 0;
   var color = [
-    "#215ea4", 
-    "#a388be", 
-    "orange", 
-    "tomato", 
-    "crimson", 
-    "purple", 
-    "turquoise", 
-    "forestgreen", 
-    "navy", 
-    "gray"
+    "rgba(239, 208, 8)", 
+    "rgba(33, 94, 164)", 
+    "rgba(163, 136, 190, 0.2)", 
+    "rgba(239, 208, 8, 0.5)", 
+    "rgba(33, 94, 164, 0.2)", 
+    "rgba(163, 136, 190)", 
+    "rgba(239, 208, 8, 0.2)", 
+    "rgba(33, 94, 164, 0.5)", 
+    "rgba(163, 136, 190, 0.5)", 
+    "rgba(239, 208, 8, 0.8)"
   ];
   for(var i=0; i<listData.length; i++) {
     var size = sliceSize(listData[i], listTotal);
