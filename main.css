@@ -3,7 +3,7 @@ body {
     src: 'https://fonts.googleapis.com/css?family=Montserrat';
 }
 
-img{
+#logo img{
     
     float: left;
     padding: 20px;
