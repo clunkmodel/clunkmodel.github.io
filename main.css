@@ -3,9 +3,9 @@ body {
     src: 'https://fonts.googleapis.com/css?family=Montserrat';
 }
 
-#logo {
+#logo img{
     
-    float: right;
+    float: left;
     padding: 20px;
     max-width: 150px;
 }
