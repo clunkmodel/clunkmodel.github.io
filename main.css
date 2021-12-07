@@ -6,8 +6,8 @@ body {
 #logo {
     
     float: right;
-    margin: 20px;
-    height: 10px;
+    padding: 20px;
+    width: 100px;
 }
 
 .slider {
