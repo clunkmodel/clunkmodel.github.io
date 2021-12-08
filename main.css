@@ -11,11 +11,9 @@ body {
 }
 
 .container {
-    width: 50%;
-}
-
-.right {
-    left: 5px;
+    max-width: 50%;
+    float: right;
+    padding: 10px;
 }
 
 .slider {
