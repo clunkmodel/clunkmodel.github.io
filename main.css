@@ -6,7 +6,7 @@ body {
 .logo {
     
     padding: 20px;
-    height: 100px;
+    max-width: 10%;
 }
 
 .slider {
