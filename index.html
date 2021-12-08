@@ -93,7 +93,7 @@ recognition might work in the context of the ocean example scene as deployed in 
 	start('en')
 </script>
 <div class="container">
-  
+
 </div>
 <div class="container">
 <!--Test object clustering-->
@@ -104,13 +104,13 @@ recognition might work in the context of the ocean example scene as deployed in 
 <p>Clunk will select an icon from this category to place on the reflection panel.</p>
 </div>
 <script>
-  if (classNames[1] == "flower" || classNames[1] == "leaf") {
+  if (outp[1] == "flower" || outp[1] == "leaf") {
     document.getElementById("demo").innerHTML = "Plants";
   }
-  if (classNames[1] == "eye" || classNames[1] == "eyeglasses") {
+  if (outp[1] == "eye" || outp[1] == "eyeglasses") {
     document.getElementById("demo").innerHTML = "Humans";
   }
-  if (classNames[1] == "bucket" || classNames[1] == "camera") {
+  if (outp[1] == "bucket" || outp[1] == "camera") {
     document.getElementById("demo").innerHTML = "Objects";
   }
   </script>
