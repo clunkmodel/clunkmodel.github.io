@@ -11,8 +11,9 @@ body {
 }
 
 .container {
+    position: relative;
     width: 50%;
-    box-align: right;
+    left:5%;
     padding: 20px;
 }
 
