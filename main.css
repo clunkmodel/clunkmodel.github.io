@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 50%;
-    float: right;
+    box-align: right;
     padding: 20px;
 }
 
