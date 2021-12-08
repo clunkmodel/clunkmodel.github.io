@@ -11,9 +11,11 @@ body {
 }
 
 .container {
-    position: relative;
     width: 50%;
-    
+}
+
+.right {
+    left: 5%;
 }
 
 .slider {
