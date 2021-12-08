@@ -101,13 +101,13 @@ recognition might work in the context of the ocean example scene as deployed in 
 <p>Clunk will select an icon from this category to place on the reflection panel.</p>
 </div>
 <script>
-  if (classNames[1] == "flower" || classNames[1] == "leaf") {
+  if (classNames[0] == "flower" || classNames[0] == "leaf") {
     document.getElementById("demo").innerHTML = "Plants";
   }
-  if (classNames[1] == "eye" || classNames[1] == "eyeglasses") {
+  if (classNames[0] == "eye" || classNames[0] == "eyeglasses") {
     document.getElementById("demo").innerHTML = "Humans";
   }
-  if (classNames[1] == "bucket" || classNames[1] == "camera") {
+  if (classNames[0] == "bucket" || classNames[0] == "camera") {
     document.getElementById("demo").innerHTML = "Objects";
   }
   </script>
