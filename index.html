@@ -93,4 +93,24 @@ recognition might work in the context of the ocean example scene as deployed in 
 	console.log('starting');
 	start('en')
 </script>
+<!--Test object clustering-->
+<h2>Object clustering</h2>
+
+<p>The sketch belongs to the category of:</p>
+
+<p id="demo">Fish</p>
+
+<p>Clunk will select an icon from this category to place on the reflection panel.</p>
+
+<script>
+if (outp == "flower" || outp == "leaf") {
+  document.getElementById("demo").innerHTML = "Plants";
+}
+if (outp == "eye" || outp == "eyeglasses") {
+  document.getElementById("demo").innerHTML = "Humans";
+}
+if (outp == "bucket" || outp == "camera") {
+  document.getElementById("demo").innerHTML = "Objects";
+}
+</script>
 </html>
