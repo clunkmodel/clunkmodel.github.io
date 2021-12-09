@@ -114,19 +114,19 @@ recognition might work in the context of the ocean example scene as deployed in 
   let Objects = ['bucket', 'camera', 'canoe', 'cruise_ship', 'cup', 'diving_board', 'flashlight', 'light_bulb', 'sailboat', 'speedboat', 'submarine', 'ladder', 'clock', 'book', 'shovel', 'airplane', 'star', 'sword', 'radio', 'axe', 'line', 'fan', 'lantern', 'candle', 'saw', 'screwdriver', 'helmet', 'bridge', 'key', 'circle', 'triangle', 'suitcase', 'hammer', 'knife', 'backpack', 'binoculars', 'computer', 'cooler', 'crayon', 'diamond', 'fence', 'laptop', 'lighthouse', 'parachute', 'stairs', 'stitches', 'wheel']
 
   for(var i = 0; i < Plants.length; i++) {
-    if (Plants[i] == classNames[0]) {
+    if (classNames == Plants[i]) {
         document.getElementById("demo").innerHTML = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
-    if (Humans[i] == classNames[0]) {
+    if (classNames[0] == Humans[i]) {
         document.getElementById("demo").innerHTML = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
-    if (Objects[i] == classNames[0]) {
+    if (classNames[0] == Objects[i]) {
         document.getElementById("demo").innerHTML = "Objects";
         }
     }
