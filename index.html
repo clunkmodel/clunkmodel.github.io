@@ -97,7 +97,7 @@ recognition might work in the context of the ocean example scene as deployed in 
 <h2>Object clustering</h2>
 
 <p>The sketch belongs to the category of:</p>
-<p id="demo"><b>Fish</b></p>
+<p id="demo"></p>
 <p>Clunk will select an icon from this category to place on the reflection panel.</p>
 </div>
 <script>
@@ -113,22 +113,30 @@ recognition might work in the context of the ocean example scene as deployed in 
   /*create array Objects*/
   let Objects = ['bucket', 'camera', 'canoe', 'cruise_ship', 'cup', 'diving_board', 'flashlight', 'light_bulb', 'sailboat', 'speedboat', 'submarine', 'ladder', 'clock', 'book', 'shovel', 'airplane', 'star', 'sword', 'radio', 'axe', 'line', 'fan', 'lantern', 'candle', 'saw', 'screwdriver', 'helmet', 'bridge', 'key', 'circle', 'triangle', 'suitcase', 'hammer', 'knife', 'backpack', 'binoculars', 'computer', 'cooler', 'crayon', 'diamond', 'fence', 'laptop', 'lighthouse', 'parachute', 'stairs', 'stitches', 'wheel']
 
-  for(var i = 0; i < Plants.length; i++) {
-    if (classNames == Plants[i]) {
-        document.getElementById("demo").innerHTML = "Plants";
+  for(var i = 0; i < Fish.length; i++) {
+    if (classNames[0] == Fish[i]) {
+        outcome = "Fish";
+        }
+    }
+  
+    for(var i = 0; i < Plants.length; i++) {
+    if (classNames[0] == Plants[i]) {
+        outcome = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
     if (classNames[0] == Humans[i]) {
-        document.getElementById("demo").innerHTML = "Humans";
+        outcome = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
     if (classNames[0] == Objects[i]) {
-        document.getElementById("demo").innerHTML = "Objects";
+        outcome = "Objects";
         }
     }
+
+document.getElementById("demo").innerHTML = outcome;
   </script>
 </html>
