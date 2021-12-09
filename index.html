@@ -117,25 +117,25 @@ recognition might work in the context of the ocean example scene as deployed in 
   let outcome;
 
   for(var i = 0; i < Fish.length; i++) {
-    if (classNames[0] === Fish[i]) {
+    if (Fish[i] == names[0]) {
         outcome = "Fish";
         }
     }
   
     for(var i = 0; i < Plants.length; i++) {
-    if (classNames[0] === Plants[i]) {
+    if (names[0] == Plants[i]) {
         outcome = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
-    if (classNames[0] === Humans[i]) {
+    if (names[0] == Humans[i]) {
         outcome = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
-    if (classNames[0] === Objects[i]) {
+    if (names[0] == Objects[i]) {
         outcome = "Objects";
         }
     }
