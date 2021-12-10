@@ -276,38 +276,38 @@ function iconselection() {
   let Stairs = ["stairs"]
 
   /*define output*/
-  let outcome;
+  let outcome = document.getElementById("demo");
 
   for(var i = 0; i < Stairs.length; i++) {
     if (Stairs[i] == classNames[0]) {
-        outcome = "Stairs";
+        outcome.innerHTML = "Stairs";
         }
     }
     
     for(var i = 0; i < Fish.length; i++) {
     if (Fish[i] == classNames[0]) {
-        outcome = "Fish";
+        outcome.innerHTML = "Fish";
         }
     }
   
     for(var i = 0; i < Plants.length; i++) {
     if (Plants[i] == classNames[0]) {
-        outcome = "Plants";
+        outcome.innerHTML = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
     if (Humans[i] == classNames[0]) {
-        outcome = "Humans";
+        outcome.innerHTML = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
     if (Objects[i] == classNames[0]) {
-        outcome = "Objects";
+        outcome.innerHTML = "Objects";
         }
     }
 console.log(outcome)
 console.log(classNames[0])
-document.getElementById("demo").innerHTML = outcome;
+
 }
