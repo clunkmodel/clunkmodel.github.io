@@ -282,7 +282,7 @@ function iconselection(names) {
      
     for(var i = 0; i < Fish.length; i++) {
     if (Fish[i] == names[0]) {
-        outcome.innerHTML = "Fish";
+        outcome.innerHTML = "Animals";
         }
     }
   
