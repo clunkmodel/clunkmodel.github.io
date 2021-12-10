@@ -304,5 +304,5 @@ for(var i = 0; i < Objects.length; i++) {
         }
     }
 console.log(outcome)
-console.log(classNames[0])
+console.log(names)
 }
