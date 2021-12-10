@@ -22,6 +22,7 @@ $(function() {
     //setup listeners 
     canvas.on('mouse:up', function(e) {
         getFrame();
+        iconselection();
         mousePressed = false
     });
     canvas.on('mouse:down', function(e) {
