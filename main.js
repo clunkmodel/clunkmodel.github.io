@@ -278,25 +278,25 @@ function iconselection() {
 
      
     for(var i = 0; i < Fish.length; i++) {
-    if (Fish[i] == top5[0]) {
+    if (Fish[i] == classNames[0]) {
         outcome.innerHTML = "Fish";
         }
     }
   
     for(var i = 0; i < Plants.length; i++) {
-    if (Plants[i] == top5[0]) {
+    if (Plants[i] == classNames[0]) {
         outcome.innerHTML = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
-    if (Humans[i] == top5[0]) {
+    if (Humans[i] == classNames[0]) {
         outcome.innerHTML = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
-    if (Objects[i] == top5[0]) {
+    if (Objects[i] == classNames[0]) {
         outcome.innerHTML = "Objects";
         }
     }
