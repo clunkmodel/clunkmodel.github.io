@@ -275,14 +275,11 @@ function iconselection() {
 
   let Stairs = ["stairs"]
 
-  const indicestop = findIndicesOfMax(pred, 1)
-  const nametop = getClassNames(indicestop)
-
   /*define output*/
   let outcome = document.getElementById("demo");
 
   for(var i = 0; i < Stairs.length; i++) {
-    if (Stairs[i] == nametop[0]) {
+    if (Stairs[i] == sym1) {
         outcome.innerHTML = "Stairs";
         }
     }
