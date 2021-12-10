@@ -122,7 +122,7 @@ function getFrame() {
         const indices = findIndicesOfMax(pred, 5)
         const probs = findTopValues(pred, 5)
         const names = getClassNames(indices)
-        
+        console.log(names)
         //set the table 
         setTable(names, probs)
 
@@ -165,7 +165,7 @@ function success(data) {
         let symbol = lst[i]
         classNames[i] = symbol
     }
-    console.log(classNames)
+   
 }
 
 /*
