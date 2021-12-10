@@ -126,7 +126,7 @@ function getFrame() {
         //set the table 
         setTable(names, probs)
 
-        iconselection();
+        iconselection(names);
     }
 
 }
@@ -263,7 +263,7 @@ function erase() {
     coords = [];
 }
 
-function iconselection() {
+function iconselection(names) {
     /*create array Fish*/
   let Fish = ['crab', 'crocodile', 'fish', 'octopus', 'shark', 'whale', 'snake', 'spider', 'tooth', 'bird', 'butterfly', 'ant', 'bee', 'dolphin', 'dragon', 'frog', 'lobster', 'snail']
 
@@ -281,25 +281,25 @@ function iconselection() {
 
      
     for(var i = 0; i < Fish.length; i++) {
-    if (Fish[i] == classNames[0]) {
+    if (Fish[i] == names[0]) {
         outcome.innerHTML = "Fish";
         }
     }
   
     for(var i = 0; i < Plants.length; i++) {
-    if (Plants[i] == classNames[0]) {
+    if (Plants[i] == names[0]) {
         outcome.innerHTML = "Plants";
         }
     }
 
 for(var i = 0; i < Humans.length; i++) {
-    if (Humans[i] == classNames[0]) {
+    if (Humans[i] == names[0]) {
         outcome.innerHTML = "Humans";
         }
     }
 
 for(var i = 0; i < Objects.length; i++) {
-    if (Objects[i] == classNames[0]) {
+    if (Objects[i] == names[0]) {
         outcome.innerHTML = "Objects";
         }
     }
