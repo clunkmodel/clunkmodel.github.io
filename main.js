@@ -279,7 +279,7 @@ function iconselection() {
   let outcome = document.getElementById("demo");
 
   for(var i = 0; i < Stairs.length; i++) {
-    if (Stairs[i] == classNames[0]) {
+    if (Stairs[i] == top5[0]) {
         outcome.innerHTML = "Stairs";
         }
     }
