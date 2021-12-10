@@ -121,7 +121,7 @@ function getFrame() {
         const indices = findIndicesOfMax(pred, 5)
         const probs = findTopValues(pred, 5)
         const names = getClassNames(indices)
-
+        
         //set the table 
         setTable(names, probs)
     }
@@ -306,7 +306,7 @@ for(var i = 0; i < Objects.length; i++) {
         outcome = "Objects";
         }
     }
-console.log(outcome);
-console.log(classNames[0]);
+console.log(outcome)
+console.log(classNames[0])
 document.getElementById("demo").innerHTML = outcome;
 }
