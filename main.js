@@ -258,3 +258,46 @@ function erase() {
     canvas.backgroundColor = '#ffffff';
     coords = [];
 }
+
+function iconselection() {
+    /*create array Fish*/
+  let Fish = ['crab', 'crocodile', 'fish', 'octopus', 'shark', 'whale', 'snake', 'spider', 'tooth', 'bird', 'butterfly', 'ant', 'bee', 'dolphin', 'dragon', 'frog', 'lobster', 'snail']
+
+  /*create array Plants*/
+  let Plants = ['flower', 'leaf', 'ocean', 'palm_tree', 'sun', 'tree', 'mountain', 'moon', 'rainbow', 'lightning', 'cloud', 'beach', 'bush', 'cactus']
+
+  /*create array Humans*/
+  let Humans = ['eye', 'eyeglasses', 'flip_flops', 'hand', 'arm', 'mermaid', 'smiley_face', 'face', 'wristwatch', 'bread', 'pants', 'shorts', 'cell_phone', 'hat', 't-shirt', 'brain', 'foot', 'knee', 'moustache', 'mouth', 'nail']
+
+  /*create array Objects*/
+  let Objects = ['bucket', 'camera', 'canoe', 'cruise_ship', 'cup', 'diving_board', 'flashlight', 'light_bulb', 'sailboat', 'speedboat', 'submarine', 'ladder', 'clock', 'book', 'shovel', 'airplane', 'star', 'sword', 'radio', 'axe', 'line', 'fan', 'lantern', 'candle', 'saw', 'screwdriver', 'helmet', 'bridge', 'key', 'circle', 'triangle', 'suitcase', 'hammer', 'knife', 'backpack', 'binoculars', 'computer', 'cooler', 'crayon', 'diamond', 'fence', 'laptop', 'lighthouse', 'parachute', 'stairs', 'stitches', 'wheel']
+
+  /*define output*/
+  let outcome;
+
+  for(var i = 0; i < Fish.length; i++) {
+    if (Fish[i] == classNames[0]) {
+        outcome = "Fish";
+        }
+    }
+  
+    for(var i = 0; i < Plants.length; i++) {
+    if (Plants[i] == classNames[0]) {
+        outcome = "Plants";
+        }
+    }
+
+for(var i = 0; i < Humans.length; i++) {
+    if (Humans[i] == classNames[0]) {
+        outcome = "Humans";
+        }
+    }
+
+for(var i = 0; i < Objects.length; i++) {
+    if (Objects[i] == classNames[0]) {
+        outcome = "Objects";
+        }
+    }
+
+document.getElementById("demo").innerHTML = outcome;
+}
