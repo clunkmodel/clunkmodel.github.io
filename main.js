@@ -300,4 +300,5 @@ for(var i = 0; i < Objects.length; i++) {
     }
 
 document.getElementById("demo").innerHTML = outcome;
+console.log(outcome);
 }
