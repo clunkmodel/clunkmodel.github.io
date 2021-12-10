@@ -10,6 +10,10 @@ body {
     max-width: 10%;
 }
 
+footer {
+    font-size: 7px;
+}
+
 .container {
     position: relative;
     max-width: 50%;
