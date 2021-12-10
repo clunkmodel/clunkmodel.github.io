@@ -279,7 +279,7 @@ function iconselection() {
   let outcome = document.getElementById("demo");
 
   for(var i = 0; i < Stairs.length; i++) {
-    if (Stairs[i] == sym1) {
+    if (Stairs[i] == classNames[0]) {
         outcome.innerHTML = "Stairs";
         }
     }
@@ -309,5 +309,8 @@ for(var i = 0; i < Objects.length; i++) {
     }
 console.log(outcome)
 console.log(classNames[0])
+console.log(sym1)
+console.log(sym[0])
+console.log(classNames[indices[0]])
 
 }
