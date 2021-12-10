@@ -165,6 +165,7 @@ function success(data) {
         let symbol = lst[i]
         classNames[i] = symbol
     }
+    console.log(classNames)
 }
 
 /*
