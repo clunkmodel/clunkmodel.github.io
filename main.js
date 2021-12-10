@@ -288,7 +288,7 @@ function iconselection(names) {
   
     for(var i = 0; i < Plants.length; i++) {
     if (Plants[i] == names[0]) {
-        outcome.innerHTML = "Plants";
+        outcome.innerHTML = "Environment";
         }
     }
 
