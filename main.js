@@ -270,12 +270,20 @@ function iconselection() {
   let Humans = ['eye', 'eyeglasses', 'flip_flops', 'hand', 'arm', 'mermaid', 'smiley_face', 'face', 'wristwatch', 'bread', 'pants', 'shorts', 'cell_phone', 'hat', 't-shirt', 'brain', 'foot', 'knee', 'moustache', 'mouth', 'nail']
 
   /*create array Objects*/
-  let Objects = ['bucket', 'camera', 'canoe', 'cruise_ship', 'cup', 'diving_board', 'flashlight', 'light_bulb', 'sailboat', 'speedboat', 'submarine', 'ladder', 'clock', 'book', 'shovel', 'airplane', 'star', 'sword', 'radio', 'axe', 'line', 'fan', 'lantern', 'candle', 'saw', 'screwdriver', 'helmet', 'bridge', 'key', 'circle', 'triangle', 'suitcase', 'hammer', 'knife', 'backpack', 'binoculars', 'computer', 'cooler', 'crayon', 'diamond', 'fence', 'laptop', 'lighthouse', 'parachute', 'stairs', 'stitches', 'wheel']
+  let Objects = ['bucket', 'camera', 'canoe', 'cruise_ship', 'cup', 'diving_board', 'flashlight', 'light_bulb', 'sailboat', 'speedboat', 'submarine', 'ladder', 'clock', 'book', 'shovel', 'airplane', 'star', 'sword', 'radio', 'axe', 'line', 'fan', 'lantern', 'candle', 'saw', 'screwdriver', 'helmet', 'bridge', 'key', 'circle', 'triangle', 'suitcase', 'hammer', 'knife', 'backpack', 'binoculars', 'computer', 'cooler', 'crayon', 'diamond', 'fence', 'laptop', 'lighthouse', 'parachute', 'stairss', 'stitches', 'wheel']
+
+  let Stairs = ["stairs"]
 
   /*define output*/
   let outcome;
 
-  for(var i = 0; i < Fish.length; i++) {
+  for(var i = 0; i < Stairs.length; i++) {
+    if (Stairs[i] == classNames[0]) {
+        outcome = "Stairs";
+        }
+    }
+    
+    for(var i = 0; i < Fish.length; i++) {
     if (Fish[i] == classNames[0]) {
         outcome = "Fish";
         }
@@ -298,7 +306,7 @@ for(var i = 0; i < Objects.length; i++) {
         outcome = "Objects";
         }
     }
-
-document.getElementById("demo").innerHTML = outcome;
 console.log(outcome);
+console.log(classNames[0]);
+document.getElementById("demo").innerHTML = outcome;
 }
